@@ -1,0 +1,53 @@
+/* Original styles - don't edit these! */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg1 {
+  background: url(bg1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg2 {
+  background: url(bg2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.5em;
+}
+
+.bg1, .bg2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+div {
+  color: #eee;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1px 2px;
+  margin: 2px;
+}
+
+.container div {
+  display: flex;
+  flex-direction: column;
+  line-height: 35px;
+}
+
+.container div:hover {
+  box-shadow: 4px 4px 4px 4px blueviolet;
+}
+
+/* Add your styles below here*/
